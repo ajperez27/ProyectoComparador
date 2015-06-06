@@ -1,0 +1,348 @@
+/*Mis estilos*/
+
+/*1920px1080p*/
+@media screen and (width: 1920px) {
+    #mover { 
+        width: 3360px !important ;
+    }
+}
+
+@media screen and (width: 1366px) {
+    #mover { 
+        width: 2456px !important ;
+    }
+}
+
+
+
+
+#mapa 
+{
+    width: 100%;
+    height: 450px;    
+}
+
+.divProductos
+{
+    margin-left: 1% !important ;
+}
+
+/*Paginacion*/
+.content-pagenation
+{
+    text-align: center;
+}
+.content-pagenation li
+{
+    cursor: pointer;
+}
+
+.barato span{
+    color:green !important;
+    font-weight: bold;
+}
+
+#iva
+{
+    font-family: 'ambleregular' !important;
+    color: #8e8e8e;
+}
+
+#nuevoSuper
+{
+    font-family: 'ambleregular' !important;
+    color: #383838;
+}
+
+
+.cart span{
+    cursor: pointer;
+}
+
+
+.logoSuper{
+    width: 60%;  
+}
+
+.logoSuper2{
+    width: 50%;  
+}
+
+.euros
+{
+    margin-top: 10px;
+    font-size: 1.5em !important;
+    font-family: 'ambleregular' !important;
+}
+
+.price-number p .euros{
+    position: relative;
+    bottom: 15px;
+    left: 7px;
+    margin-bottom: 10px !important;
+}
+.price-number p img
+{
+    margin-top: 10px;
+}
+
+.añadirCarro {
+    float: none;
+    margin-top: 20px;
+}
+
+#Add, #Restar
+{
+    display: inline-block;
+}
+
+#Add a, #Restar a
+{
+    border-radius: 6px;
+    padding: 6px 10px 6px 10px;
+}
+#Add a
+{
+    margin-right: 10px; 
+}
+#Restar a
+{
+    margin-left: 10px; 
+}
+
+.masMenosEliminar
+{
+    float: none;
+}
+
+.comparar {
+    margin-right: 40%;
+}
+
+
+#descanso
+{
+    margin-left: 5%;
+}
+
+/*ViewLogin*/
+#divLoginClave
+{
+    text-align: center;
+    font-family: 'ambleregular';
+}
+
+#divLoginClave label
+{
+    margin: 2%;
+    color: #8e8e8e;
+}
+
+#divLoginClave .textoLoginClave
+{
+    border: none;
+    background: none;
+    font-size:12px;
+    color: #acacac !important;
+    padding:5px;
+    background-color: #f7f7f7;
+}
+.logearse
+{
+    margin: 0 auto;
+    border: none;
+}
+
+/*BackEnd*/
+
+#divDatos, #divDatos h2 a, .modal
+{
+    font-family: 'ambleregular';
+    color: #383838;
+}
+
+.span_1_of_3
+{
+    text-align: justify !important;
+}
+
+#categorias
+{
+    float: left;
+}
+
+table
+{
+    width: 100%;
+}
+
+table, td, tr, th
+{
+    border: 1px solid #383838;
+    text-align: center;
+    vertical-align: middle;
+    padding: 7px 10px 7px 10px;
+}
+.botonRojo, .botonRojoPro
+{
+    padding: 0px;
+    background: #CD1F25 !important ;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.botonRojo a, .botonRojoPro a {
+    font-size:0.9em;
+    display: block;
+    padding:10px 15px;
+    font-family: 'ambleregular';
+    background: #CD1F25 !important ;
+    color: #FFF;
+    text-decoration: none;
+    outline: 0;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.botonRojo a:hover, .botonRojoPro:hover, .botonRojoPro a:hover{
+    text-shadow: 0px 0px 1px #000;
+    background:#292929 !important ;
+}
+
+th{
+    background-color: #4d4c4c;
+    color: white;
+}
+
+/*Productos*/
+
+.tituloCategoria
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #8e8e8e;
+}
+
+/*Ventanas Modales*/
+
+.aceptar{
+    float: left;
+    color: #474747;
+}
+
+
+.cancelar{
+    float: right;
+    color: #474747;
+}
+
+/*#modalProductos, 
+#modalCategorias,
+#modalModificarCategorias*/
+.modal{
+    font-family: 'ambleregular';
+    left:50%;
+    margin:-250px 0 0 -40%;
+    opacity: 0;
+    position:absolute;
+    top:-50%;
+    visibility: hidden;
+    width:40%;
+    box-shadow:0 3px 7px rgba(0,0,0,.25);
+    box-sizing:border-box;
+    transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+}
+/* Make the modal appear when targeted */
+/*#modalProductos:target, 
+#modalCategorias:target,
+#modalModificarCategorias:target*/
+.modal:target{
+    opacity: 1;
+    top:50%;
+    visibility: visible;
+}
+/*#modalProductos .header, 
+#modalCategorias .header,
+#modalModificarCategorias .header*/
+.modal .header{
+    border-bottom: 1px solid #e7e7e7;
+    border-radius: 5px 5px 0 0;
+}
+
+.modal .footer {
+    border:none;
+    border-top: 1px solid #e7e7e7;
+    border-radius: 0 0 5px 5px;
+}
+.modal h2 {
+    margin:0;
+}
+.modal.btn{
+    float:right;
+}
+
+.modal .copy, .modal .header, .modal .footer
+{
+    padding:15px;
+}
+.modal-content {
+    background: #f7f7f7;
+    position: relative;
+    z-index: 20;
+    border-radius:5px;
+}
+
+.modal .copy {
+    background: #fff;
+}
+
+.modal .overlay{
+    background-color: #000;
+    background: rgba(0,0,0,.5);
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+/*Modificar*/
+.formModificar{
+    text-align: left;
+}
+
+.formModificar label{
+    display: inline-block;
+    min-width: 27%;
+    margin-left: 10%;
+}
+
+.nombreCategoria
+{
+    min-width: 15%! important;
+    margin-left: 25% !important;
+}
+
+.aceptarSubmit{
+    font-size: 100%;
+    background-color: white;
+    border: none;
+}
+
+/*Borrar*/
+.formBorrar, .tituloForm, .tituloFormProdCat, .añadir {
+    text-align: center; 
+}
+
+.añadir{
+    font-size: 1.5em;
+}
+
+
